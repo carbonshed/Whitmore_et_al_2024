@@ -3,8 +3,7 @@
 ## Authors: Keridwen M. Whitmore, Amanda G. DelVecchia, Elizabeth Farquhar, Gerard Rocher-Ros, Esteban Suárez, and Diego A. Riveros-Iregui
 
 
-This repository serves to host data and analyses used in the research supporting the work in *Carbon Evasion Dynamics in a Tropical, High-Elevation, Peatland Catchment are Mediated by A Threshold in Watershed Area
-*, submitted to *Water Resources Research*.
+This repository serves to host data and analyses used in the research supporting the work in *Carbon Evasion Dynamics in a Tropical, High-Elevation, Peatland Catchment are Mediated by A Threshold in Watershed Area*, submitted to *Water Resources Research*.
 
 ## Purpose  
   To provide access to the data and make analyses reproducible for others. Figures 2 through 7 presented in the paper were created using R statistical software. Figure 1 is a site map created in Arc Pro (ESRI 2023) All scripts and data files for creating our figures are provided within this repository. If you have Rstudio installed on your computer, you should be able to 'fork' this repository and run it on your local computer to reproduce the anlayses in this paper without any alterations.
