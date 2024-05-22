@@ -87,15 +87,13 @@ You can fork or simply download this repository to your local computer and open 
   
   | Column Name | Description |
   | :--- | :---------- |
-  | Eos# | EosFd unit no. |
-  | Date | date of collection |
-  | Flux | Carbon dioxide flux (umole per m^2 per sec) |
-  | Distance From 35 | distance from the outlet of the wetland (meters) | 
-  | Syn7-18 | synoptic site number, collection date July 18th | 
-  | Syn7-25 | synoptic site number, collection date July 25th | 
-  | Syn7-31 | synoptic site number, collection date July 31th | 
-  | Syn8-6 | synoptic site number, collection date August 6th | 
-  | Syn8-12 | synoptic site number, collection date August 12th | 
+  | dist | sample distance from most upstream measurment (meter) |
+  | pCO2_ppm | dissolved co2 (parts per million)  |
+  | Totalflux_umolpers | flux rate multiplied by stream area (umole/second) |
+  | Wetland | name of sampled reach  |
+  | Wetland_4 | name of sampled reach, mainstem split between outlet and inlet  |
+  | shape | column used for plotting | 
+  | Totalfux_gpers | cumulative flux from upstream to downsteam (gC-CO2/second | 
 
 <strong>______________________________________________________________________</strong>
   
