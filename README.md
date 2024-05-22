@@ -21,36 +21,36 @@ You can fork or simply download this repository to your local computer and open 
 
 | Column Name | Description |
 | :--- | :---------- |
-| lon_fit | Date and Time of collection |
-| lat_fit | denotes if data was collected during injection of CO<sub>2</sub> gas  |
-| ele_fit | raw partial pressure of CO<sub>2</sub> at Station 1 (ppm)  |
-| width | raw partial pressure of CO<sub>2</sub> at Station 2 (ppm)  |
-| depth | raw partial pressure of CO<sub>2</sub> at Station 3 (ppm)  |
-| dist | raw partial pressure of CO<sub>2</sub> at Station 4 (ppm)  |
-| Wetland | Turbidity (NTU)  |
-| Wetland_2 | Chlorophylla (ug.L)  |
-| Wetland_3 | Colored Dissolved Organic Matter [parts per billion] |
-| Wetland_4 | Carbon dioxide flux, unit no 1 (umole per m^2 per sec)  |
-| Wetland_5 | Temperature [Celsius] at station 1 |
-| CatchmentSize_ha | area draining to sample point in hectars  |
+| lon_fit | longitude corrdinate of sample, predicted by fitting a spline to GPS collected corrdinates (decimal degrees)|
+| lat_fit | latitude corrdinate of sample, predicted by fitting a spline to GPS collected corrdinates (decimal degrees) |
+| ele_fit | elevation of sample, predicted by fitting a spline to GPS collected corrdinates (meters)  |
+| width | width of stream at sample location (centimeter) |
+| depth | depth of stream at sample location (centimeter) |
+| dist | sample distance from most upstream measurment (meter) |
+| Wetland | name of sampled reach  |
+| Wetland_2 | name of sampled reach, all tribs combined  |
+| Wetland_3 | name of sampled reach, gavilan river network combined |
+| Wetland_4 | name of sampled reach, mainstem split between outlet and inlet  |
+| Wetland_5 | name of sampled reach, mainstem split between outlet and inlet, gavilan tribs combined |
+| CatchmentSize_ha | catchment size at sample point (hectar)  |
 | Date | Date of sample collection |
-| pCO2_ppm | Temperature (C) at station:  |
-| F_CO2_umol_m2_s | Temperature (C) at station:  |
-| WaterTemp_c | Temperature (C) at station:  |
-| AirTemp_c | Temperature (C) at station:  |
-| air_pressure_hpa | Temperature (C) at station:  |
-| surface_area | Temperature (C) at station:  |
-| pCO2_air_ppm | Air Temperature (c)  |
-| air_pressure_atm | conductivity at station 1 (uS) |
-| water_pressure_atm | conductivity at station 2 (uS) |
-| pCO2_w_atm | Dissolved Oxygen at station 1 (mg/l)  |
-| pCO2_air_atm |  Dissolved Oxygen at station 2 (mg/l) |
-| KH_mol.l.atm |  Dissolved Oxygen at station 4 (mg/l) |
-| KH_mol.m3.atm | 24-hour total precipitation [mm]  |
-| Flux_mol_m2_d | 48-hour total precipitation [mm] |
-| k_m_d | 72-hour total precipitation [mm]  |
-| Sc | Corrected Water Level- Station 3  in meters |
-| K600 | Corrected Water Level- Sensor 425 in meters |
+| pCO2_ppm | dissolved co2 (parts per million)  |
+| F_CO2_umol_m2_s | co2 evasion flux, average of 2-3 measurments (umol/m2/s) |
+| WaterTemp_c | Water Temperature (celcius)  |
+| AirTemp_c | air temperature (celcius) |
+| air_pressure_hpa | air pressure (hectopascals) |
+| surface_area | surface area of stream represented by sample point (square meter)  |
+| pCO2_air_ppm | CO2 concentration in the air (parts per million) |
+| air_pressure_atm | air pressure (atmospheres) |
+| water_pressure_atm | water pressure (atmospheres) |
+| pCO2_w_atm | dissolved CO2 concentration (atmospheres)  |
+| pCO2_air_atm |  CO2 at saturation (atmospheres |
+| KH_mol.l.atm |  Henry's constant adjusted for water temperature (mole/L/atm) |
+| KH_mol.m3.atm | Henry's constant adjusted for water temperature (mole/m3/atm)  |
+| Flux_mol_m2_d | CO2 evasion flux (mole/m2/day) |
+| k_m_d | CO2 gas transfer velocity (meter/day) |
+| Sc | schmidt's constant |
+| K600 | CO2 gas transfer velocity adjusted to the schmidt's constant of 600 (meter/day) |
 
 
 <strong>______________________________________________________________________</strong>
