@@ -61,13 +61,23 @@ You can fork or simply download this repository to your local computer and open 
   
   | Column Name | Description |
   | :--- | :---------- |
-  | Distance | distance from the outlet of the wetland (meters) |
-  | Syn1_071819 | Carbon dioxide partial pressure (ppm) collected on 2019-07-18 |
-  | Syn2_072519 | Carbon dioxide partial pressure (ppm) collected on 2019-07-25  |
-  | Syn3_072919 | Carbon dioxide partial pressure (ppm) collected on 2019-07-29  |
-  | Syn4_073119 | Carbon dioxide partial pressure (ppm) collected on 2019-07-31  |
-  | Syn5_080619 | Carbon dioxide partial pressure (ppm) collected on 2019-08-06  |
-  | Syn6_081219 | Carbon dioxide partial pressure (ppm) collected on 2019-08-12 |
+| lon_fit | longitude corrdinate of sample, predicted by fitting a spline to GPS collected corrdinates (decimal degrees)|
+| lat_fit | latitude corrdinate of sample, predicted by fitting a spline to GPS collected corrdinates (decimal degrees) |
+| ele_fit | elevation of sample, predicted by fitting a spline to GPS collected corrdinates (meters)  |
+| width | width of stream at sample location (centimeter) |
+| depth | depth of stream at sample location (centimeter) |
+| dist | sample distance from most upstream measurment (meter) |
+| Wetland_4 | name of sampled reach, mainstem split between outlet and inlet  |
+| CatchmentSize_ha | catchment size at sample point (hectar)  |
+| pCO2_ppm | dissolved co2 (parts per million)  |
+| F_CO2_umol_m2_s | co2 evasion flux, average of 2-3 measurments (umol/m2/s) |
+| Ele_sample | elevation of sample pulled from DTM (meter) |
+| Ele_upstream | elevation upstream of sample from DTM (meter) |
+| reach_length | gas travel distance (meter) |
+| slope_m.m | slope upstream of sample point (meter/meter) |
+| k_m_d | CO2 gas transfer velocity (meter/day) |
+| Sc | schmidt's constant |
+| K600 | CO2 gas transfer velocity adjusted to the schmidt's constant of 600 (meter/day) |
   
 <strong>______________________________________________________________________</strong>
 
