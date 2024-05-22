@@ -99,16 +99,10 @@ You can fork or simply download this repository to your local computer and open 
   
 ## script
 
-| File Name | Type | Description |
-| :------- | :--: |:---------- |
-| figure_02.R | R code | figure 3 |
-| figure_03.Rmd	| R markdown | figure 3 |
-| figure_03.html | html | figure 3 image rendered in html |
-| figure_04.R |	R code | figure 04 |
-| figure_05.R |	R code | figure 04 | 
-| figure_06.R |	R code | figure 07 |
-| figure_07.R |	R code | figure 07 |
-| figure_08.R |	R code | figure 08 |
+file name: Figures_script.Rmd
+
+*this R markdown can be used to plot figure 2-7 using data in project folder
+
 
 <strong>______________________________________________________________________</strong>
   
